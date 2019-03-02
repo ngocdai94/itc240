@@ -81,6 +81,7 @@
 
             <br><br>
             <label>&nbsp;</label>
+            <!-- Display Sort Button only if the task list is greater or equal than 2 -->
             <?php if (count($task_list) >= 2) {?>
             <input type="submit" name="action" value="Sort Tasks">
             <?php } ?>
